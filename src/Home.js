@@ -14,16 +14,19 @@ function Home() {
         </div>
 
         <div className="home__headerRight">
-          <Link to="about"> Gmail</Link>
+          <a href="https://www.gmail.com"> Gmail</a>
 
-          <Link to="about"> Images</Link>
+          <a href="https://www.google.co.in/imghp?hl=en&tab=wi&authuser=0&ogbl">
+            {" "}
+            Images
+          </a>
           <AppsIcon />
 
           <Avatar />
         </div>
       </div>
       <div className="home__body">
-        <img src="https://cdn.vox-cdn.com/thumbor/HqBAiwc9uD1sHBw2Uvac03pCXKE=/0x0:2012x1341/1400x1050/filters:focal(0x0:2012x1341):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" />
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
 
         <div className="home__inputContainer">
           <Search />

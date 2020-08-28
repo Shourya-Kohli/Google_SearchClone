@@ -10,7 +10,6 @@
   padding: 20px 30px;
   align-items: center;
 }
-
 .home__headerRight {
   display: flex;
   align-items: center;
@@ -35,11 +34,11 @@
 .home__body {
   flex: 1;
   display: flex;
-  margin-top: 10%;
+  margin-top: 15vh;
   flex-direction: column;
 }
 
 .home__body > img {
   object-fit: contain;
-  height: 200px;
+  height: 100px;
 }
